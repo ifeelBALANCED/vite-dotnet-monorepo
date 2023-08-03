@@ -89,7 +89,7 @@ importers:
       ts-node: 9.1.1
       tslib: 2.3.1
       typescript: 4.3.5
-      vite: ^4.0.4
+      vite: ^4.0.5
       vite-plugin-eslint: ^1.8.1
       vite-tsconfig-paths: ^4.0.2
       vitest: ^0.25.8
@@ -123,11 +123,11 @@ importers:
       '@nrwl/nx-plugin': 13.7.1_ex6e6juhb3ecmak5vtxtnanwm4
       '@nrwl/react': 15.6.3_62olmzz35acg4jfi7dg6vxe77u
       '@nrwl/storybook': 15.5.1_774tsdadtyo75w6atxwuaf7wjq
-      '@nrwl/vite': 15.6.3_dn3z4gze2pmuwr47dywt33tty4
-      '@nrwl/web': 15.5.1_if57uhs2f4ij5d2wvnyknj37aa
+      '@nrwl/vite': 15.6.3_vzwchvj7tcu3ywpqzgz5urns4q
+      '@nrwl/web': 15.5.1_v2mzmqpsn64t6kkb2aoxdwtqxm
       '@nrwl/workspace': 13.7.1_42ibfay7rdzynzsqho4bzsrlwm
       '@nx-dotnet/core': 1.18.1_gsst3dbwptwledjdprhhnrchly
-      '@nxext/vite': 15.0.0_sgovxduogszmod7sljtgj5iqdy
+      '@nxext/vite': 15.0.0_unxeblz3ktza4c7isepcvjajay
       '@nxext/vitest': 15.0.0_@nrwl+devkit@13.7.1
       '@swc/core': 1.3.30
       '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
@@ -141,7 +141,7 @@ importers:
       '@types/semver': 7.3.10
       '@typescript-eslint/eslint-plugin': 5.10.2_nydny3b5pijrlyxqnidlf5kmxy
       '@typescript-eslint/parser': 5.10.2_igf73rcewngtkonxdm5xwbzsqe
-      '@vitejs/plugin-react': 3.0.0_vite@4.0.4
+      '@vitejs/plugin-react': 3.0.0_vite@4.0.5
       '@vitest/coverage-c8': 0.25.8_s6wqdchbfx6wfdl7cd3mh4oxbu
       '@vitest/ui': 0.25.8
       ava: 3.15.0
@@ -180,8 +180,8 @@ importers:
       ts-node: 9.1.1_typescript@4.3.5
       tslib: 2.3.1
       typescript: 4.3.5
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
-      vite-plugin-eslint: 1.8.1_eslint@8.7.0+vite@4.0.4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
+      vite-plugin-eslint: 1.8.1_eslint@8.7.0+vite@4.0.5
       vite-tsconfig-paths: 4.0.5_typescript@4.3.5
       vitest: 0.25.8_s6wqdchbfx6wfdl7cd3mh4oxbu
 
@@ -4090,7 +4090,7 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/vite/15.5.1_dn3z4gze2pmuwr47dywt33tty4:
+  /@nrwl/vite/15.5.1_vzwchvj7tcu3ywpqzgz5urns4q:
     resolution: {integrity: sha512-5GqpELuHWhFsBqJRqhHwA840DhyJPmkeqBVCKJUrYWpgtnx/WIZd2SWjWuLnpY2OsGmGrVNQDWGuMQZaj1lbpA==}
     peerDependencies:
       vite: ^4.0.1
@@ -4104,7 +4104,7 @@ packages:
       chalk: 4.1.0
       dotenv: 10.0.0
       enquirer: 2.3.6
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
       vitest: 0.25.8_s6wqdchbfx6wfdl7cd3mh4oxbu
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -4116,7 +4116,7 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/vite/15.6.3_dn3z4gze2pmuwr47dywt33tty4:
+  /@nrwl/vite/15.6.3_vzwchvj7tcu3ywpqzgz5urns4q:
     resolution: {integrity: sha512-vO5JUoS4nhOk42nVyhmU/itX+1GmxoXG3NgTmWtjtLgYwi7eo3lddtMdzgKLKH0Ktwo4kfApiHaU36iDadyS9A==}
     peerDependencies:
       vite: ^4.0.1
@@ -4129,7 +4129,7 @@ packages:
       '@swc/helpers': 0.4.14
       dotenv: 10.0.0
       enquirer: 2.3.6
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
       vitest: 0.25.8_s6wqdchbfx6wfdl7cd3mh4oxbu
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -4142,7 +4142,7 @@ packages:
       - typescript
     dev: true
 
-  /@nrwl/web/15.5.1_if57uhs2f4ij5d2wvnyknj37aa:
+  /@nrwl/web/15.5.1_v2mzmqpsn64t6kkb2aoxdwtqxm:
     resolution: {integrity: sha512-8HYyWhcaOlGGmkR7MO+Goq/xR+Jm6zUODpFyCGv80N8Y60An9Ug45MibTmFyi1Z6SsOQMN1/E0YegyJEoBQMAA==}
     dependencies:
       '@babel/core': 7.20.12
@@ -4158,7 +4158,7 @@ packages:
       '@nrwl/js': 15.5.1_62olmzz35acg4jfi7dg6vxe77u
       '@nrwl/linter': 15.5.1_hxniovwcylys7dunxjdcpwifzu
       '@nrwl/rollup': 15.5.1_fpr76y7r6yrnlsupgzhc2lv7o4
-      '@nrwl/vite': 15.5.1_dn3z4gze2pmuwr47dywt33tty4
+      '@nrwl/vite': 15.5.1_vzwchvj7tcu3ywpqzgz5urns4q
       '@nrwl/webpack': 15.5.1_q2dciocvifm5l7x7qfqxykik4m
       '@nrwl/workspace': 15.5.1_3i5l6fbgtejifcijk3gcdpou6i
       babel-plugin-const-enum: 1.2.0_@babel+core@7.20.12
@@ -4454,7 +4454,7 @@ packages:
       xmldoc: 1.1.2
     dev: true
 
-  /@nxext/vite/15.0.0_sgovxduogszmod7sljtgj5iqdy:
+  /@nxext/vite/15.0.0_unxeblz3ktza4c7isepcvjajay:
     resolution: {integrity: sha512-ydlLXQ12cs4x4O61+eEFMffuQwSiYzH/RtAEvKPYiFSNWnwXqCXjqxHHfATDOvXeETL6n+hvsR7zPPfTPIU2/Q==}
     peerDependencies:
       '@nrwl/workspace': ^15.0.10
@@ -4468,7 +4468,7 @@ packages:
       rxjs: 7.8.0
       rxjs-for-await: 1.0.0_rxjs@7.8.0
       tsconfig-paths: 4.1.2
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
     transitivePeerDependencies:
       - nx
       - typescript
@@ -5652,7 +5652,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-react/3.0.0_vite@4.0.4:
+  /@vitejs/plugin-react/3.0.0_vite@4.0.5:
     resolution: {integrity: sha512-1mvyPc0xYW5G8CHQvJIJXLoMjl5Ct3q2g5Y2s6Ccfgwm45y48LBvsla7az+GkkAtYikWQ4Lxqcsq5RHLcZgtNQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -5663,7 +5663,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.20.12
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -17200,7 +17200,7 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vite-plugin-eslint/1.8.1_eslint@8.7.0+vite@4.0.4:
+  /vite-plugin-eslint/1.8.1_eslint@8.7.0+vite@4.0.5:
     resolution: {integrity: sha512-PqdMf3Y2fLO9FsNPmMX+//2BF5SF8nEWspZdgl4kSt7UvHDRHVVfHvxsD7ULYzZrJDGRxR81Nq7TOFgwMnUang==}
     peerDependencies:
       eslint: '>=7'
@@ -17210,7 +17210,7 @@ packages:
       '@types/eslint': 8.4.10
       eslint: 8.7.0
       rollup: 2.79.1
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
     dev: true
 
   /vite-tsconfig-paths/4.0.5_typescript@4.3.5:
@@ -17224,8 +17224,8 @@ packages:
       - typescript
     dev: true
 
-  /vite/4.0.4_ln3zd37likqum747dljlxbzdm4:
-    resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
+  /vite/4.0.5_ln3zd37likqum747dljlxbzdm4:
+    resolution: {integrity: sha512-7m87RC+caiAxG+8j3jObveRLqaWA/neAdCat6JAZwMkSWqFHOvg8MYe5fAQxVBRAuKAQ1S6XDh3CBQuLNbY33w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -17297,7 +17297,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.0.2
-      vite: 4.0.4_ln3zd37likqum747dljlxbzdm4
+      vite: 4.0.5_ln3zd37likqum747dljlxbzdm4
     transitivePeerDependencies:
       - less
       - sass
